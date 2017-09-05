@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>weibo ajax</title>
+    <style media="screen">
+        .comment-cell {
+            border: 1px red solid;
+        }
+        
+        .weibo-cell {
+            border: 1px blue solid;
+        }
+    </style>
+</head>
+
+<body>
+    <input id='id-input-weibo'>
+    <button id='id-button-add'>添加微博</button>
+    <div id="weibo-list">
+    </div>
+    <!-- 这是我们处理静态文件的套路 -->
+    <!-- gua.js 放了公共的函数 -->
+    <!-- 按顺序引入 2 个 js 文件, 后面的 js 文件就能使用前面的文件中的函数了 -->
+    <script src='/static?file=base.js'></script>
+    <script src='/static?file=weibo.js'></script>
+
+</body>
+
+</html>
