@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "user_id": 0,
+    "session_id": "e43j4skj2klglgr4",
+    "id": 0
+  },
+  {
+    "user_id": 0,
+    "session_id": "4eeejg2g24232s5l",
+    "id": 1
+  }
+]
