@@ -49,10 +49,11 @@ var weiboTemplate = function(weibo) {
     // data-id="1" 获取属性的方式是 .dataset.id
     var w = `
         <div class="weibo-cell" data-id="${id}">
-            <span class="weibo-content">${content}</span>
-            <button class="weibo-edit" data-id="${id}">编辑</button>
-            <button class="weibo-delete" data-id="${id}">删除</button>
+            <span class="weibo-content pure-button">${content}</span>
+            <button class="weibo-edit pure-button-primary" data-id="${id}">编辑</button>
+            <button class="weibo-delete pure-button-primary" data-id="${id}">删除</button>
         </div>
+        <br>
     `
     return w
 }
@@ -61,7 +62,7 @@ var weiboUpdateFormTemplate = function() {
     var t = `
         <div class="weibo-update-form">
             <input class="weibo-update-input">
-            <button class="weibo-update">更新</button>
+            <button class="weibo-update pure-button-primary">更新</button>
         </div>
     `
     return t
@@ -73,7 +74,7 @@ var commentTemplate = function(comment) {
     var t = `
         <div class="comment-cell" data-comment_id="${id}">
             <span class="comment-content" data-comment_id="${id}">${content}</span>
-            <button class="comment-delete" data-comment_id="${id}">删除评论</button>
+            <button class="comment-delete pure-button-primary" data-comment_id="${id}">删除评论</button>
         </div>
     `
     return t
@@ -85,7 +86,7 @@ var commentAddFormTemplate = function(weibo) {
     var t = `
         <div class="comment-add-form" data-weibo_id="${id}">
             <input class="comment-add-input" data-weibo_id="${id}">
-            <button class="comment-add-button" data-weibo_id="${id}">添加评论</button>
+            <button class="comment-add-button pure-button-primary" data-weibo_id="${id}">添加评论</button>
         </div>
     `
     return t

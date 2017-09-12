@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>weibo ajax</title>
-    <style media="screen">
-        .comment-cell {
-            border: 1px red solid;
-        }
-        
-        .weibo-cell {
-            border: 1px blue solid;
-        }
-    </style>
+    <title>Weibo ajax</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css" integrity="sha384-CCTZv2q9I9m3UOxRLaJneXrrqKwUNOzZ6NGEUMwHtShDJ+nCoiXJCAgi05KfkLGY" crossorigin="anonymous">
 </head>
-
 <body>
-    <input id='id-input-weibo'>
-    <button id='id-button-add'>添加微博</button>
-    <div id="weibo-list">
+    <div class="center">
+        <span class="pure-form">
+            <input id='id-input-weibo'>
+        </span>
+        <button id='id-button-add' class="pure-button pure-button-primary">添加Weibo</button>
+        <br>
+        <br>
+        <div id="weibo-list"></div>
     </div>
-    <!-- 这是我们处理静态文件的套路 -->
-    <!-- gua.js 放了公共的函数 -->
+    <!-- nase.js 放了公共的函数 -->
     <!-- 按顺序引入 2 个 js 文件, 后面的 js 文件就能使用前面的文件中的函数了 -->
     <script src='/static?file=base.js'></script>
     <script src='/static?file=weibo.js'></script>
-
 </body>
+<style>
+    .center_left {
+        position: relative;
+        top: 50px;
+        left: 380px;
+    }
+    .center_right{
+        position: relative;
+        right: 175px;
+    }
+    .center {
+        position: absolute;
+        left: 35%;
+        top: 10%;
 
+    }
+    </style>
 </html>

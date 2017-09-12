@@ -1,10 +1,10 @@
 from models.weibo import Weibo
 from models.comment import Comment
+from utils import log
 from routes import (
     current_user,
     json_response,
 )
-from utils import log
 
 
 def all(request):

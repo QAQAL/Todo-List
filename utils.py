@@ -1,6 +1,6 @@
 import time
-from datetime import datetime
 
+from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 
 

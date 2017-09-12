@@ -33,10 +33,10 @@ var todoTemplate = function(todo) {
     // data-id="1" 获取属性的方式是 .dataset.id
     var t = `
         <div class="todo-cell" data-id="${id}">
-            <button class="todo-edit" data-id="${id}">编辑</button>
-            <button class="todo-delete" data-id="${id}">删除</button>
-            <span class="todo-task">${task}</span>
+            <span class="todo-task pure-button">${task}</span>
             <span>${updated_time}</span>
+            <button class="todo-edit pure-button-primary" data-id="${id}">编辑</button>
+            <button class="todo-delete pure-button-primary" data-id="${id}">删除</button>
         </div>
     `
     return t
@@ -46,7 +46,7 @@ var todoUpdateFormTemplate = function(todo) {
     var t = `
         <div class="todo-update-form">
             <input class="todo-update-input">
-            <button class="todo-update">更新</button>
+            <button class="todo-update pure-button-primary">更新</button>
         </div>
     `
     return t
