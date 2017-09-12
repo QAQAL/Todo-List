@@ -2,5 +2,4 @@
 *.pyc
 __pycache__
 log.txt
-data
 .DS_Store
