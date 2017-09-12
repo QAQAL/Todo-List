@@ -10,8 +10,10 @@
 对Todo的查看，增加，修改，删除
 ![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/todo.gif)
 
+
 对weibo的增加，修改，删除，以及添加评论，删除评论
-![image](https://github.com/QAQAL/Todo-List/blob/master/static/demoweibo.gif)
+![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/weibo.gif)
+
 
 ![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/3.gif)
 
