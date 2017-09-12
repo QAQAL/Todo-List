@@ -8,8 +8,13 @@
 设计后端 API 接口，无需刷新页面即可修改网页内容；
 
 对Todo的查看，增加，修改，删除
-![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/1.gif)
-![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/2.gif)
+![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/todo.gif)
+
+
+对weibo的增加，修改，删除，以及添加评论，删除评论
+![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/weibo.gif)
+
+
 ![image](https://github.com/QAQAL/Todo-List/blob/master/static/demo/3.gif)
 
 
